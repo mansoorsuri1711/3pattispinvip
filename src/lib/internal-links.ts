@@ -3,25 +3,25 @@ import { BLOG_POSTS } from "@/lib/blog";
 
 export function getRelatedPosts(slug: string, limit = 3) {
   const relatedMap: Record<string, string[]> = {
-    "create-3-patti-world-account-and-login": [
-      "is-3-patti-world-safe-pakistan",
-      "3-patti-world-bonuses-vip-guide",
-      "3-patti-world-tips-to-win",
+    "create-teen-patti-spin-account-and-login": [
+      "is-teen-patti-spin-safe-pakistan",
+      "teen-patti-spin-bonuses-vip-guide",
+      "teen-patti-spin-tips-to-win",
     ],
-    "3-patti-world-bonuses-vip-guide": [
-      "create-3-patti-world-account-and-login",
-      "3-patti-world-tips-to-win",
-      "is-3-patti-world-safe-pakistan",
+    "teen-patti-spin-bonuses-vip-guide": [
+      "create-teen-patti-spin-account-and-login",
+      "teen-patti-spin-tips-to-win",
+      "is-teen-patti-spin-safe-pakistan",
     ],
-    "is-3-patti-world-safe-pakistan": [
-      "create-3-patti-world-account-and-login",
-      "3-patti-world-tips-to-win",
-      "3-patti-world-bonuses-vip-guide",
+    "is-teen-patti-spin-safe-pakistan": [
+      "create-teen-patti-spin-account-and-login",
+      "teen-patti-spin-tips-to-win",
+      "teen-patti-spin-bonuses-vip-guide",
     ],
-    "3-patti-world-tips-to-win": [
-      "3-patti-world-bonuses-vip-guide",
-      "is-3-patti-world-safe-pakistan",
-      "create-3-patti-world-account-and-login",
+    "teen-patti-spin-tips-to-win": [
+      "teen-patti-spin-bonuses-vip-guide",
+      "is-teen-patti-spin-safe-pakistan",
+      "create-teen-patti-spin-account-and-login",
     ],
   };
 
@@ -33,17 +33,17 @@ export function getRelatedPosts(slug: string, limit = 3) {
 }
 
 export const GUIDE_LINKS = [
-  { href: ROUTES.download, label: "Download 3 Patti World APK" },
+  { href: ROUTES.download, label: "Download Teen Patti Spin APK" },
   { href: ROUTES.deposit, label: "Deposit Money Guide" },
   { href: ROUTES.withdraw, label: "Withdraw Money Guide" },
   { href: ROUTES.register, label: "Register Account" },
   { href: ROUTES.login, label: "Login Guide" },
-  { href: ROUTES.pc, label: "3 Patti World for PC" },
+  { href: ROUTES.pc, label: "Teen Patti Spin for PC" },
 ] as const;
 
 export const HOMEPAGE_BLOG_LINKS = [
-  { slug: "create-3-patti-world-account-and-login", label: "Account & Login Guide" },
-  { slug: "3-patti-world-bonuses-vip-guide", label: "Bonuses, VIP & Referral Guide" },
-  { slug: "is-3-patti-world-safe-pakistan", label: "Is 3 Patti World Safe in Pakistan?" },
-  { slug: "3-patti-world-tips-to-win", label: "Tips to Play Smarter" },
+  { slug: "create-teen-patti-spin-account-and-login", label: "Account & Login Guide" },
+  { slug: "teen-patti-spin-bonuses-vip-guide", label: "Bonuses, VIP & Referral Guide" },
+  { slug: "is-teen-patti-spin-safe-pakistan", label: "Is Teen Patti Spin Safe in Pakistan?" },
+  { slug: "teen-patti-spin-tips-to-win", label: "Tips to Play Smarter" },
 ] as const;

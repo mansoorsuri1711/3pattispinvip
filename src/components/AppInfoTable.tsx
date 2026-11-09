@@ -5,20 +5,21 @@ import {
   APP_LAST_UPDATE,
   APP_RATING_VALUE,
   APP_RATING_COUNT,
+  APP_DOWNLOADS_LABEL,
   SITE_NAME,
 } from '@/lib/site';
 
 const appInfoRows = [
   { label: 'App Name', value: SITE_NAME },
   { label: 'Developer', value: APP_DEVELOPER },
-  { label: 'Category', value: 'Cards, Game' },
+  { label: 'Category', value: 'Cards, Casino, Game' },
   { label: 'App Size', value: APP_SIZE },
   { label: 'Version', value: APP_VERSION },
   { label: 'Required OS', value: 'Android 5.0+' },
   { label: 'Last Update', value: APP_LAST_UPDATE },
-  { label: 'Downloads', value: '600K+' },
+  { label: 'Downloads', value: APP_DOWNLOADS_LABEL },
   { label: 'Rating', value: `${APP_RATING_VALUE} ★ (${Number(APP_RATING_COUNT).toLocaleString()}+)` },
-  { label: 'Language', value: 'English, Urdu' },
+  { label: 'Language', value: 'English' },
   { label: 'Price', value: 'Free (0 PKR)' },
 ];
 

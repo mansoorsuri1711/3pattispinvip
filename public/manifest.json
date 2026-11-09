@@ -1,11 +1,11 @@
 {
-  "name": "3 Patti World",
-  "short_name": "3 Patti World",
-  "description": "Download 3 Patti World APK for Android in Pakistan. Teen Patti, Dragon vs Tiger, Rummy and more with JazzCash & EasyPaisa.",
+  "name": "Teen Patti Spin",
+  "short_name": "Teen Patti Spin",
+  "description": "Download Teen Patti Spin APK for Android in Pakistan. Classic, Joker, Muflis, AK47, Rummy and Dragon Tiger with JazzCash & EasyPaisa.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#100E0C",
-  "theme_color": "#f9dc5c",
+  "background_color": "#061016",
+  "theme_color": "#00d9ca",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -13,7 +13,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "/3-patti-world.webp",
+      "src": "/teen-patti-spin.webp",
       "sizes": "192x192 512x512",
       "type": "image/webp",
       "purpose": "any maskable"

@@ -23,7 +23,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 5,
   userScalable: true,
-  themeColor: "#100E0C",
+  themeColor: "#061016",
   viewportFit: "cover",
   interactiveWidget: "resizes-visual",
 };
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
         url: `${SITE_ORIGIN}${IMAGES.app}`,
         width: APP_ICON_SIZE.width,
         height: APP_ICON_SIZE.height,
-        alt: "3 Patti World official app icon for Pakistan",
+        alt: "Teen Patti Spin official app icon for Pakistan",
       }
     ],
   },
@@ -140,7 +140,7 @@ export default function RootLayout({
       <body
         className={`${poppins.className} antialiased bg-primary text-white min-h-screen flex flex-col`}
         style={{
-          backgroundImage: "radial-gradient(ellipse 80% 50% at 50% -10%, rgba(107, 18, 32, 0.45), transparent), radial-gradient(ellipse 50% 40% at 90% 80%, rgba(139, 0, 0, 0.2), transparent), radial-gradient(ellipse 40% 30% at 10% 60%, rgba(255, 193, 7, 0.05), transparent)",
+          backgroundImage: "radial-gradient(ellipse 80% 50% at 50% -10%, rgba(0, 217, 202, 0.18), transparent), radial-gradient(ellipse 50% 40% at 90% 80%, rgba(255, 77, 109, 0.12), transparent), radial-gradient(ellipse 40% 30% at 10% 60%, rgba(0, 179, 166, 0.08), transparent)",
           backgroundAttachment: "fixed",
           minHeight: "100vh"
         }}
@@ -188,9 +188,9 @@ export default function RootLayout({
               },
               "aggregateRating": {
                 "@type": "AggregateRating",
-                "ratingValue": "4.5",
+                "ratingValue": "4.6",
                 "bestRating": "5",
-                "ratingCount": "300000"
+                "ratingCount": "500000"
               }
             })
           }}

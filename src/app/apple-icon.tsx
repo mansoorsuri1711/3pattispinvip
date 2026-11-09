@@ -11,20 +11,20 @@ export default function AppleIcon() {
     (
       <div
         style={{
-          fontSize: 48,
-          background: 'linear-gradient(180deg, #1c1712 0%, #100E0C 100%)',
+          fontSize: 42,
+          background: 'linear-gradient(180deg, #0d1f26 0%, #061016 100%)',
           width: '100%',
           height: '100%',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          color: '#f9dc5c',
+          color: '#00d9ca',
           fontWeight: 'bold',
           borderRadius: '20%',
-          border: '4px solid #f9dc5c',
+          border: '4px solid #00d9ca',
         }}
       >
-        3PW
+        TPS
       </div>
     ),
     {

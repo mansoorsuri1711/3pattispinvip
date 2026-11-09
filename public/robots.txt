@@ -63,4 +63,4 @@ User-agent: *
 Disallow: /api/
 Disallow: /_next/
 
-Sitemap: https://teenpattiworld-vip.com/sitemap-index.xml
+Sitemap: https://teenpattispin-vip.com/sitemap-index.xml

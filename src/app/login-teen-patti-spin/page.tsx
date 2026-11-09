@@ -6,9 +6,9 @@ import { SITE_ORIGIN } from "@/lib/site";
 import { ROUTES } from "@/lib/routes";
 import { LOGIN_STEPS } from "@/lib/guide-steps";
 
-const PAGE_TITLE = "3 Patti World Login Guide for Android";
+const PAGE_TITLE = "Teen Patti Spin Login Guide for Android";
 const PAGE_DESCRIPTION =
-  "Log in to 3 Patti World safely on Android. Password tips, Forgot Password OTP reset, and checks after you enter the lobby in Pakistan.";
+  "Log in to Teen Patti Spin safely on Android. Password tips, Forgot Password OTP reset, and checks after you enter the lobby in Pakistan.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
@@ -29,14 +29,14 @@ export default function LoginPage() {
         breadcrumbs={breadcrumbs}
         page={{ path: ROUTES.login, title: PAGE_TITLE, description: PAGE_DESCRIPTION }}
         howTo={{
-          name: "How to Login to 3 Patti World",
+          name: "How to Login to Teen Patti Spin",
           description: PAGE_DESCRIPTION,
           steps: [...LOGIN_STEPS],
         }}
       />
       <PageHero
         breadcrumbs={breadcrumbs}
-        title="Login to 3 Patti World"
+        title="Login to Teen Patti Spin"
         description="Use the same mobile number or email you registered with. If login fails, reset with OTP instead of creating a second account."
       />
       <GuideContent>
@@ -54,7 +54,7 @@ export default function LoginPage() {
               Register first
             </Link>{" "}
             or read the{" "}
-            <Link href={`${ROUTES.blog}/create-3-patti-world-account-and-login`} className="text-accent hover:text-accent-light">
+            <Link href={`${ROUTES.blog}/create-teen-patti-spin-account-and-login`} className="text-accent hover:text-accent-light">
               full account guide
             </Link>
             .

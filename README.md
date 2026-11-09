@@ -1,6 +1,6 @@
-# 3 Patti World — teenpattiworld-vip.com
+# Teen Patti Spin — teenpattispin-vip.com
 
-Next.js informational site for **3 Patti World** (Android APK guides for Pakistan): download, deposit, withdraw, PC emulator, and SERP-driven blog posts.
+Next.js informational site for **Teen Patti Spin** (Android APK guides for Pakistan): download, deposit, withdraw, PC emulator, and SERP-driven blog posts.
 
 ## Getting Started
 
@@ -20,5 +20,5 @@ npm start
 
 ## Brand
 
-- Domain: `https://teenpattiworld-vip.com`
-- Images CDN: `https://3pattiworldapp.com.pk`
+- Domain: `https://teenpattispin-vip.com`
+- Images: local `public/` assets (sourced from teenpattispingame.com.pk)

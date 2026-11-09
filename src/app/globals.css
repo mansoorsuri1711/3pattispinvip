@@ -9,10 +9,10 @@
   --accent-rgb: 249, 220, 92;
   --red-rgb: 92, 58, 18;
   --surface-rgb: 28, 23, 18;
-  --gold: #f9dc5c;
+  --gold: #00d9ca;
   --gold-light: #ffe27a;
-  --dark-red: #5c3a12;
-  --black: #100E0C;
+  --dark-red: #0e4a4a;
+  --black: #061016;
 }
 
 body {
@@ -451,7 +451,7 @@ footer {
 
 .screenshot-image-wrap {
   width: 100%;
-  background: #100E0C;
+  background: #061016;
   line-height: 0;
 }
 

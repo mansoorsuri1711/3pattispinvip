@@ -12,7 +12,7 @@ interface DownloadButtonProps {
 export default function DownloadButton({
   className = '',
   size = 'default',
-  label = 'Download 3 Patti World',
+  label = 'Download Teen Patti Spin',
   showIcon = true,
   href = DOWNLOAD_URL,
 }: DownloadButtonProps) {

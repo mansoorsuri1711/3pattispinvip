@@ -16,15 +16,15 @@ export type BlogPost = {
 /** SERP-driven posts only — unique intents not covered by Download/Deposit/Withdraw/PC pages */
 export const BLOG_POSTS: BlogPost[] = [
   {
-    slug: "create-3-patti-world-account-and-login",
-    title: "How to Create a 3 Patti World Account and Login",
+    slug: "create-teen-patti-spin-account-and-login",
+    title: "How to Create a Teen Patti Spin Account and Login",
     description:
-      "Create a 3 Patti World account and log in safely on Android. OTP binding, password tips, and fixes for common login errors in Pakistan.",
+      "Create a Teen Patti Spin account and log in safely on Android. OTP binding, password tips, and fixes for common login errors in Pakistan.",
     datePublished: "2026-11-09",
     category: "Account",
     readTime: "7 min read",
     howToSteps: [
-      "Install the official 3 Patti World APK from teenpattiworld-vip.com",
+      "Install the official Teen Patti Spin APK from teenpattispin-vip.com",
       "Open Register and enter a reachable mobile number or email",
       "Verify with the OTP sent to your device",
       "Set a strong unique password and save it offline",
@@ -34,33 +34,33 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
   },
   {
-    slug: "3-patti-world-bonuses-vip-guide",
-    title: "3 Patti World Bonuses, VIP Levels and Referral Guide",
+    slug: "teen-patti-spin-bonuses-vip-guide",
+    title: "Teen Patti Spin Bonuses, VIP Levels and Referral Guide",
     description:
-      "Understand 3 Patti World welcome offers, recharge rebates, VIP progress, and invite rewards — plus how to check promo terms before you deposit.",
+      "Understand Teen Patti Spin welcome offers, 111 bonus, recharge rebates, VIP progress, spin wheel rewards, and invite commissions — plus how to check promo terms before you deposit.",
     datePublished: "2026-11-09",
     category: "Bonuses",
     readTime: "8 min read",
     howToSteps: [
-      "Open Events or Promo after logging into 3 Patti World",
+      "Open Events or Promo after logging into Teen Patti Spin",
       "Read the welcome or first-deposit offer wording carefully",
       "Check recharge rebate percentages before topping up",
       "Open VIP or Member tabs to see level progress",
+      "Try the spin wheel only with free or promo spins when available",
       "Copy your invite code from the referral or agent screen",
-      "Share only with people who want to register themselves",
       "Track commission history before planning larger invites",
     ],
   },
   {
-    slug: "is-3-patti-world-safe-pakistan",
-    title: "Is 3 Patti World Safe in Pakistan? Checks and Risk Guide",
+    slug: "is-teen-patti-spin-safe-pakistan",
+    title: "Is Teen Patti Spin Safe in Pakistan? Checks and Risk Guide",
     description:
-      "Practical 3 Patti World safety checks for Pakistan: APK source, permissions, account security, payment records, legal uncertainty, and responsible limits.",
+      "Practical Teen Patti Spin safety checks for Pakistan: APK source, permissions, account security, payment records, legal uncertainty, and responsible limits.",
     datePublished: "2026-11-09",
     category: "Safety",
     readTime: "7 min read",
     howToSteps: [
-      "Download only from the official button on teenpattiworld-vip.com",
+      "Download only from the official button on teenpattispin-vip.com",
       "Review Android install permissions before opening the APK",
       "Enable OTP binding and never share passwords in chats",
       "Test JazzCash or EasyPaisa with a small deposit first",
@@ -70,10 +70,10 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
   },
   {
-    slug: "3-patti-world-tips-to-win",
-    title: "3 Patti World Tips to Win: Smart Play for Pakistan",
+    slug: "teen-patti-spin-tips-to-win",
+    title: "Teen Patti Spin Tips to Win: Smart Play for Pakistan",
     description:
-      "Practical 3 Patti World tips for Teen Patti tables, bankroll limits, bonus use, and avoiding common mistakes Pakistani players make.",
+      "Practical Teen Patti Spin tips for Classic, Joker, Muflis and AK47 tables, bankroll limits, bonus use, and avoiding common mistakes Pakistani players make.",
     datePublished: "2026-11-09",
     category: "Tips",
     readTime: "8 min read",
