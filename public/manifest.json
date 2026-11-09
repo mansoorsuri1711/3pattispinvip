@@ -1,0 +1,22 @@
+{
+  "name": "3rr Game",
+  "short_name": "3rr Game",
+  "description": "Download 3rr Game APK for Android in Pakistan. Slots, cards, fishing and live games with JazzCash & EasyPaisa.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#100E0C",
+  "theme_color": "#f9dc5c",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/3rr-game.webp",
+      "sizes": "192x192 512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ]
+}
