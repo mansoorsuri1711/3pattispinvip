@@ -5,7 +5,7 @@ export default function ScreenshotGallery() {
   return (
     <section id="app-screenshots" className="mt-12">
       <h2 className="text-2xl md:text-3xl font-bold text-accent text-center mb-8">
-        Real 3rr Game Screens Inside the App
+        Real 3 Patti World Screens Inside the App
       </h2>
       <div className="screenshot-grid">
         {SCREENSHOTS.map(({ src, label, alt }) => (

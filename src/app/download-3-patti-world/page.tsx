@@ -7,9 +7,9 @@ import { SITE_ORIGIN, SITE_DOMAIN, APP_VERSION, APP_SIZE } from "@/lib/site";
 import { ROUTES } from "@/lib/routes";
 import { DOWNLOAD_STEPS } from "@/lib/guide-steps";
 
-const PAGE_TITLE = "Download 3rr Game APK v1.0.36 for Android Pakistan";
+const PAGE_TITLE = "Download 3 Patti World APK V1.169 for Android Pakistan";
 const PAGE_DESCRIPTION =
-  "Download 3rr Game APK for Android in Pakistan. Official install steps, unknown-source settings, system requirements, and PC emulator notes for version 1.0.36.";
+  "Download 3 Patti World APK for Android in Pakistan. Official install steps, unknown-source settings, system requirements, and PC emulator notes for version V1.169.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 };
 
 const iosComingSoonMessage =
-  "3rr Game does not yet ship a native iOS App Store build in this guide. Use Android or follow the PC emulator guide until an official iPhone release is confirmed.";
+  "3 Patti World does not yet ship a native iOS App Store build in this guide. Use Android or follow the PC emulator guide until an official iPhone release is confirmed.";
 
 const breadcrumbs = [
   { name: "Home", path: ROUTES.home },
@@ -33,14 +33,14 @@ export default function DownloadPage() {
         breadcrumbs={breadcrumbs}
         page={{ path: ROUTES.download, title: PAGE_TITLE, description: PAGE_DESCRIPTION }}
         howTo={{
-          name: "How to Download 3rr Game APK on Android",
+          name: "How to Download 3 Patti World APK on Android",
           description: PAGE_DESCRIPTION,
           steps: [...DOWNLOAD_STEPS],
         }}
       />
       <PageHero
         breadcrumbs={breadcrumbs}
-        title="Download 3rr Game APK"
+        title="Download 3 Patti World APK"
         description={`Get the official ${APP_VERSION} build (~${APP_SIZE}) for Android from ${SITE_DOMAIN}. Avoid renamed Telegram APKs and always install from the Download Now button on this site.`}
         downloadHref={ROUTES.home}
       />
@@ -48,7 +48,7 @@ export default function DownloadPage() {
         <AppInfoTable />
         <StepList
           title="For Android"
-          intro="Follow these steps to install 3rr Game safely on your Android phone:"
+          intro="Follow these steps to install 3 Patti World safely on your Android phone:"
           steps={[...DOWNLOAD_STEPS]}
         />
         <div className="glass-card p-6 mb-6">
@@ -72,9 +72,9 @@ export default function DownloadPage() {
             </thead>
             <tbody>
               {[
-                ["Operating System", "Android 6.0+", "Coming Soon", "Windows 10 or 11"],
+                ["Operating System", "Android 5.0+", "Coming Soon", "Windows 10 or 11"],
                 ["RAM", "2GB+", "—", "4GB+"],
-                ["Storage", "100MB free", "—", "2GB free for emulator"],
+                ["Storage", "500MB free", "—", "2GB free for emulator"],
                 ["Internet", "Stable 4G / WiFi", "—", "Stable broadband"],
               ].map(([sys, android, ios, pc]) => (
                 <tr key={sys}>
@@ -89,8 +89,8 @@ export default function DownloadPage() {
         </div>
         <p className="text-sm text-gray-400 text-center">
           Install issues? Read{" "}
-          <Link href={`${ROUTES.blog}/is-3rr-game-safe-pakistan`} className="text-accent hover:text-accent-light">
-            is 3rr Game safe
+          <Link href={`${ROUTES.blog}/is-3-patti-world-safe-pakistan`} className="text-accent hover:text-accent-light">
+            is 3 Patti World safe
           </Link>{" "}
           or play via the{" "}
           <Link href={ROUTES.pc} className="text-accent hover:text-accent-light">

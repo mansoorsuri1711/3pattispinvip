@@ -4,7 +4,7 @@ import { SITE_NAME, SITE_ORIGIN, SITE_DOMAIN, SUPPORT_EMAIL } from "@/lib/site";
 import { ROUTES } from "@/lib/routes";
 
 const PAGE_TITLE = `Disclaimer – ${SITE_NAME}`;
-const PAGE_DESCRIPTION = `Disclaimer for ${SITE_NAME} on ${SITE_DOMAIN}. Independent informational site — not the official 3rr Game developer.`;
+const PAGE_DESCRIPTION = `Disclaimer for ${SITE_NAME} on ${SITE_DOMAIN}. Independent informational site — not the official 3 Patti World developer.`;
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
@@ -42,7 +42,7 @@ export default function DisclaimerPage() {
         <section>
           <h2 className="text-xl font-semibold text-accent mb-3">1. Independent Website</h2>
           <p>
-            <strong className="text-white">{SITE_NAME}</strong> on {SITE_DOMAIN} is an independent informational website. We are <strong className="text-white">not</strong> the official developers, owners, or operators of the 3rr Game / 3rr.com application. We cannot reset passwords, reverse payments, or unlock accounts.
+            <strong className="text-white">{SITE_NAME}</strong> on {SITE_DOMAIN} is an independent informational website. We are <strong className="text-white">not</strong> the official developers, owners, or operators of the 3 Patti World application. We cannot reset passwords, reverse payments, or unlock accounts.
           </p>
         </section>
 
@@ -70,7 +70,7 @@ export default function DisclaimerPage() {
         <section>
           <h2 className="text-xl font-semibold text-accent mb-3">5. Accuracy</h2>
           <p>
-            App menus, limits and offers change. We update guides when we can, but screenshots and steps may lag behind the live app. Cross-check important payment details inside 3rr Game before depositing.
+            App menus, limits and offers change. We update guides when we can, but screenshots and steps may lag behind the live app. Cross-check important payment details inside 3 Patti World before depositing.
           </p>
         </section>
 

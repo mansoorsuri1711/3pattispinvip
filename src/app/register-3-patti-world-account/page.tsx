@@ -8,9 +8,9 @@ import { ROUTES } from "@/lib/routes";
 import { REGISTER_STEPS } from "@/lib/guide-steps";
 import { IMAGES, SCREENSHOT_SIZE } from "@/lib/images";
 
-const PAGE_TITLE = "Register a 3rr Game Account in Pakistan";
+const PAGE_TITLE = "Register a 3 Patti World Account in Pakistan";
 const PAGE_DESCRIPTION =
-  "Create a 3rr Game account with mobile or email OTP. Strong password tips and binding steps before your first JazzCash or EasyPaisa deposit.";
+  "Create a 3 Patti World account with mobile or email OTP. Strong password tips and binding steps before your first JazzCash or EasyPaisa deposit.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
@@ -31,22 +31,22 @@ export default function RegisterPage() {
         breadcrumbs={breadcrumbs}
         page={{ path: ROUTES.register, title: PAGE_TITLE, description: PAGE_DESCRIPTION }}
         howTo={{
-          name: "How to Register on 3rr Game",
+          name: "How to Register on 3 Patti World",
           description: PAGE_DESCRIPTION,
           steps: [...REGISTER_STEPS],
         }}
       />
       <PageHero
         breadcrumbs={breadcrumbs}
-        title="Register on 3rr Game"
-        description="Set up a recoverable 3rr Game account before you deposit. Use a phone or email you can open for OTP, then bind profile details early."
+        title="Register on 3 Patti World"
+        description="Set up a recoverable 3 Patti World account before you deposit. Use a phone or email you can open for OTP, then bind profile details early."
       />
       <GuideContent>
         <div className="screenshot-card overflow-hidden my-2">
           <div className="screenshot-image-wrap">
             <Image
               src={IMAGES.account}
-              alt="3rr Game account profile and wallet screen"
+              alt="3 Patti World account profile and wallet screen"
               width={SCREENSHOT_SIZE.width}
               height={SCREENSHOT_SIZE.height}
               className="screenshot-image"
@@ -60,7 +60,7 @@ export default function RegisterPage() {
             Login guide
           </Link>{" "}
           · Deep dive:{" "}
-          <Link href={`${ROUTES.blog}/3rr-game-registration-login-guide`} className="text-accent hover:text-accent-light">
+          <Link href={`${ROUTES.blog}/create-3-patti-world-account-and-login`} className="text-accent hover:text-accent-light">
             full registration & login article
           </Link>
         </p>

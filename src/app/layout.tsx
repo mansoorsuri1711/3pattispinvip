@@ -78,7 +78,7 @@ export const metadata: Metadata = {
         url: `${SITE_ORIGIN}${IMAGES.app}`,
         width: APP_ICON_SIZE.width,
         height: APP_ICON_SIZE.height,
-        alt: "3rr Game official app icon for Pakistan",
+        alt: "3 Patti World official app icon for Pakistan",
       }
     ],
   },
@@ -179,7 +179,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
               "name": SITE_NAME,
-              "operatingSystem": "Android 6.0+",
+              "operatingSystem": "Android 5.0+",
               "applicationCategory": "GameApplication",
               "offers": {
                 "@type": "Offer",
@@ -190,7 +190,7 @@ export default function RootLayout({
                 "@type": "AggregateRating",
                 "ratingValue": "4.5",
                 "bestRating": "5",
-                "ratingCount": "200000"
+                "ratingCount": "300000"
               }
             })
           }}

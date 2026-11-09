@@ -3,17 +3,25 @@ import { BLOG_POSTS } from "@/lib/blog";
 
 export function getRelatedPosts(slug: string, limit = 3) {
   const relatedMap: Record<string, string[]> = {
-    "3rr-game-registration-login-guide": [
-      "is-3rr-game-safe-pakistan",
-      "3rr-game-bonuses-vip-referral-guide",
+    "create-3-patti-world-account-and-login": [
+      "is-3-patti-world-safe-pakistan",
+      "3-patti-world-bonuses-vip-guide",
+      "3-patti-world-tips-to-win",
     ],
-    "3rr-game-bonuses-vip-referral-guide": [
-      "3rr-game-registration-login-guide",
-      "is-3rr-game-safe-pakistan",
+    "3-patti-world-bonuses-vip-guide": [
+      "create-3-patti-world-account-and-login",
+      "3-patti-world-tips-to-win",
+      "is-3-patti-world-safe-pakistan",
     ],
-    "is-3rr-game-safe-pakistan": [
-      "3rr-game-registration-login-guide",
-      "3rr-game-bonuses-vip-referral-guide",
+    "is-3-patti-world-safe-pakistan": [
+      "create-3-patti-world-account-and-login",
+      "3-patti-world-tips-to-win",
+      "3-patti-world-bonuses-vip-guide",
+    ],
+    "3-patti-world-tips-to-win": [
+      "3-patti-world-bonuses-vip-guide",
+      "is-3-patti-world-safe-pakistan",
+      "create-3-patti-world-account-and-login",
     ],
   };
 
@@ -25,16 +33,17 @@ export function getRelatedPosts(slug: string, limit = 3) {
 }
 
 export const GUIDE_LINKS = [
-  { href: ROUTES.download, label: "Download 3rr Game APK" },
+  { href: ROUTES.download, label: "Download 3 Patti World APK" },
   { href: ROUTES.deposit, label: "Deposit Money Guide" },
   { href: ROUTES.withdraw, label: "Withdraw Money Guide" },
   { href: ROUTES.register, label: "Register Account" },
   { href: ROUTES.login, label: "Login Guide" },
-  { href: ROUTES.pc, label: "3rr Game for PC" },
+  { href: ROUTES.pc, label: "3 Patti World for PC" },
 ] as const;
 
 export const HOMEPAGE_BLOG_LINKS = [
-  { slug: "3rr-game-registration-login-guide", label: "Registration & Login Guide" },
-  { slug: "3rr-game-bonuses-vip-referral-guide", label: "Bonuses, VIP & Referral Guide" },
-  { slug: "is-3rr-game-safe-pakistan", label: "Is 3rr Game Safe in Pakistan?" },
+  { slug: "create-3-patti-world-account-and-login", label: "Account & Login Guide" },
+  { slug: "3-patti-world-bonuses-vip-guide", label: "Bonuses, VIP & Referral Guide" },
+  { slug: "is-3-patti-world-safe-pakistan", label: "Is 3 Patti World Safe in Pakistan?" },
+  { slug: "3-patti-world-tips-to-win", label: "Tips to Play Smarter" },
 ] as const;

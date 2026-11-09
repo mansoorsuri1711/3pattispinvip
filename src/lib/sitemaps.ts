@@ -1,4 +1,4 @@
-import { SITE_ORIGIN } from '@/lib/site';
+import { SITE_ORIGIN, IMAGE_CDN_ORIGIN } from '@/lib/site';
 import { ROUTES } from '@/lib/routes';
 import { BLOG_POSTS } from '@/lib/blog';
 import { SITEMAP_IMAGES } from '@/lib/images';
@@ -67,7 +67,7 @@ ${pages
 export function generateImageSitemapXml(): string {
   const imageEntries = SITEMAP_IMAGES.map(
     (image) => `    <image:image>
-      <image:loc>${SITE_ORIGIN}${image.src}</image:loc>
+      <image:loc>${IMAGE_CDN_ORIGIN}${image.src}</image:loc>
       <image:title>${image.title}</image:title>${image.caption ? `
       <image:caption>${image.caption}</image:caption>` : ''}
     </image:image>`

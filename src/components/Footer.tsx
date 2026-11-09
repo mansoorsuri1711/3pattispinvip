@@ -12,7 +12,7 @@ export default function Footer() {
           <div>
             <h2 className="text-xl font-bold text-accent mb-4">{SITE_NAME}</h2>
             <p className="text-sm text-gray-400 leading-relaxed">
-              <BrandText text="3rr Game is an Android earning app for Pakistan with slots, card tables, fishing rooms and live-style games in one lobby — plus JazzCash and EasyPaisa wallet support." />
+              <BrandText text="3 Patti World is Pakistan's Teen Patti gaming platform with Dragon vs Tiger, Rummy, slots and more — plus JazzCash and EasyPaisa wallet support for deposits and withdrawals." />
             </p>
           </div>
 

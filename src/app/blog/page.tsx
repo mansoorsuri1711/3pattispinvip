@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   title: `Blog – ${SITE_NAME} Guides for Pakistan`,
   description:
-    "3rr Game blog: registration & login, bonuses & VIP referrals, and a practical safety checklist for Pakistani Android players.",
+    "3 Patti World blog: account & login, bonuses & VIP, safety checks, and tips to play smarter for Pakistani Android players.",
   alternates: { canonical: `${SITE_ORIGIN}${ROUTES.blog}` },
 };
 
@@ -30,13 +30,13 @@ export default function BlogPage() {
     webPageSchema({
       url,
       name: `${SITE_NAME} Blog`,
-      description: "Guides for 3rr Game registration, bonuses and safety in Pakistan.",
+      description: "Guides for 3 Patti World registration, bonuses and safety in Pakistan.",
       pageId: `${url}#webpage`,
     }),
     collectionPageSchema({
       url,
       name: `${SITE_NAME} Blog`,
-      description: "SERP-driven guides for 3rr Game players in Pakistan.",
+      description: "SERP-driven guides for 3 Patti World players in Pakistan.",
       items: BLOG_POSTS.map((post) => ({
         name: post.title,
         url: absoluteUrl(`${ROUTES.blog}/${post.slug}`),
@@ -56,11 +56,11 @@ export default function BlogPage() {
             ]}
           />
           <div className="text-center mt-6 md:mt-8">
-            <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">3rr Game Blog</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">3 Patti World Blog</h1>
             <p className="text-gray-300 text-lg max-w-2xl mx-auto">
               Focused articles that support{" "}
               <Link href={ROUTES.home} className="text-accent hover:text-accent-light font-medium">
-                3rr Game
+                3 Patti World
               </Link>{" "}
               search intent — accounts, bonuses and safer play — without duplicating deposit or withdraw guides.
             </p>

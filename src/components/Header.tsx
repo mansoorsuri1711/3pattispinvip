@@ -24,7 +24,7 @@ export default function Header() {
           <div className="relative h-10 w-10 mr-3 ring-2 ring-accent/30 rounded-xl overflow-hidden group-hover:ring-accent/60 transition-all">
             <Image
               src={IMAGES.app}
-              alt="3rr Game Logo"
+              alt="3 Patti World Logo"
               width={40}
               height={40}
               className="object-contain"

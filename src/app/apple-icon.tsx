@@ -24,7 +24,7 @@ export default function AppleIcon() {
           border: '4px solid #f9dc5c',
         }}
       >
-        3rr
+        3PW
       </div>
     ),
     {

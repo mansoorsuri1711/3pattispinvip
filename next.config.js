@@ -9,7 +9,7 @@ const nextConfig = {
     removeConsole: process.env.NODE_ENV === 'production',
   },
   
-  // Serve /public images at canonical URLs (required for Google Image sitemap indexing)
+  // Serve images via custom loader (CDN: 3pattiworldapp.com.pk)
   images: {
     loader: 'custom',
     loaderFile: './src/lib/imageLoader.ts',
@@ -19,16 +19,22 @@ const nextConfig = {
     return [
       { source: '/about', destination: '/about-us', permanent: true },
       { source: '/privacy', destination: '/privacy-policy', permanent: true },
-      { source: '/download-3-patti-room', destination: '/download-3rr-game', permanent: true },
-      { source: '/deposit-money-in-3-patti-room', destination: '/deposit-money-in-3rr-game', permanent: true },
-      { source: '/withdraw-money-from-3-patti-room', destination: '/withdraw-money-from-3rr-game', permanent: true },
-      { source: '/register-3-patti-room-account', destination: '/register-3rr-game-account', permanent: true },
-      { source: '/login-3-patti-room', destination: '/login-3rr-game', permanent: true },
-      { source: '/3-patti-room-for-pc', destination: '/3rr-game-for-pc', permanent: true },
-      { source: '/download-card-rummy', destination: '/download-3rr-game', permanent: true },
-      { source: '/deposit-money-in-card-rummy', destination: '/deposit-money-in-3rr-game', permanent: true },
-      { source: '/withdraw-money-from-card-rummy', destination: '/withdraw-money-from-3rr-game', permanent: true },
-      { source: '/card-rummy-for-pc', destination: '/3rr-game-for-pc', permanent: true },
+      { source: '/download-3rr-game', destination: '/download-3-patti-world', permanent: true },
+      { source: '/deposit-money-in-3rr-game', destination: '/deposit-money-in-3-patti-world', permanent: true },
+      { source: '/withdraw-money-from-3rr-game', destination: '/withdraw-money-from-3-patti-world', permanent: true },
+      { source: '/register-3rr-game-account', destination: '/register-3-patti-world-account', permanent: true },
+      { source: '/login-3rr-game', destination: '/login-3-patti-world', permanent: true },
+      { source: '/3rr-game-for-pc', destination: '/3-patti-world-for-pc', permanent: true },
+      { source: '/download-3-patti-room', destination: '/download-3-patti-world', permanent: true },
+      { source: '/deposit-money-in-3-patti-room', destination: '/deposit-money-in-3-patti-world', permanent: true },
+      { source: '/withdraw-money-from-3-patti-room', destination: '/withdraw-money-from-3-patti-world', permanent: true },
+      { source: '/register-3-patti-room-account', destination: '/register-3-patti-world-account', permanent: true },
+      { source: '/login-3-patti-room', destination: '/login-3-patti-world', permanent: true },
+      { source: '/3-patti-room-for-pc', destination: '/3-patti-world-for-pc', permanent: true },
+      { source: '/download-card-rummy', destination: '/download-3-patti-world', permanent: true },
+      { source: '/deposit-money-in-card-rummy', destination: '/deposit-money-in-3-patti-world', permanent: true },
+      { source: '/withdraw-money-from-card-rummy', destination: '/withdraw-money-from-3-patti-world', permanent: true },
+      { source: '/card-rummy-for-pc', destination: '/3-patti-world-for-pc', permanent: true },
       { source: '/\\$', destination: '/', permanent: true },
       { source: '/\\&', destination: '/', permanent: true },
     ];
@@ -85,7 +91,7 @@ const nextConfig = {
               "default-src 'self'",
               "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com",
               "style-src 'self' 'unsafe-inline'",
-              "img-src 'self' data: https:",
+              "img-src 'self' data: https: https://3pattiworldapp.com.pk",
               "font-src 'self' data:",
               "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com",
               "frame-ancestors 'none'",
@@ -194,4 +200,4 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig 
+module.exports = nextConfig

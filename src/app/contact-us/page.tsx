@@ -4,7 +4,7 @@ import { SITE_NAME, SITE_ORIGIN, SUPPORT_EMAIL } from "@/lib/site";
 import { ROUTES } from "@/lib/routes";
 
 const PAGE_TITLE = `Contact Us – ${SITE_NAME}`;
-const PAGE_DESCRIPTION = `Contact the ${SITE_NAME} editorial team on 3rrgame.co for guide corrections, broken links, or content feedback.`;
+const PAGE_DESCRIPTION = `Contact the ${SITE_NAME} editorial team on teenpattiworld-vip.com for guide corrections, broken links, or content feedback.`;
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
@@ -34,7 +34,7 @@ export default function ContactUsPage() {
       <div className="space-y-8 text-gray-300 leading-relaxed">
         <section>
           <p>
-            Reach out if a guide is outdated, a link is broken, or you want a new 3rr Game topic covered. We respond to editorial questions about this website — not in-app account recovery.
+            Reach out if a guide is outdated, a link is broken, or you want a new 3 Patti World topic covered. We respond to editorial questions about this website — not in-app account recovery.
           </p>
         </section>
 
@@ -63,18 +63,18 @@ export default function ContactUsPage() {
             <li>Incorrect or outdated information on our guides</li>
             <li>Suggestions for new blog posts</li>
             <li>Reporting broken links or page errors</li>
-            <li>General feedback about 3rrgame.co</li>
+            <li>General feedback about teenpattiworld-vip.com</li>
           </ul>
         </section>
 
         <section>
           <h2 className="text-xl font-semibold text-accent mb-3">For App Support</h2>
           <p className="text-sm text-gray-400">
-            For account, deposit, or withdrawal issues inside 3rr Game, use the official in-app Help / Support chat. This site cannot access game accounts or move wallet funds.
+            For account, deposit, or withdrawal issues inside 3 Patti World, use the official in-app Help / Support chat. This site cannot access game accounts or move wallet funds.
           </p>
           <p className="mt-3 text-sm">
             <Link href={ROUTES.blog} className="text-accent hover:text-accent-light">
-              Browse our 3rr Game guides →
+              Browse our 3 Patti World guides →
             </Link>
           </p>
         </section>

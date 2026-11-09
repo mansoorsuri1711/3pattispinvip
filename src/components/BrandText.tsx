@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ROUTES } from "@/lib/routes";
 
-const BRAND_MARKERS = ["3rr Game", "3rr"] as const;
+const BRAND_MARKERS = ["3 Patti World", "3Patti World"] as const;
 
 type BrandMarker = (typeof BRAND_MARKERS)[number];
 

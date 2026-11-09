@@ -8,9 +8,9 @@ import { ROUTES } from "@/lib/routes";
 import { DEPOSIT_STEPS } from "@/lib/guide-steps";
 import { IMAGES, SCREENSHOT_SIZE } from "@/lib/images";
 
-const PAGE_TITLE = "Top Up 3rr Game Wallet with JazzCash & EasyPaisa";
+const PAGE_TITLE = "Top Up 3 Patti World Wallet with JazzCash & EasyPaisa";
 const PAGE_DESCRIPTION =
-  "Add PKR to your 3rr Game wallet using JazzCash or EasyPaisa. Step-by-step deposit guide for Pakistani players with safety tips and promo checks.";
+  "Add PKR to your 3 Patti World wallet using JazzCash or EasyPaisa. Step-by-step deposit guide for Pakistani players with safety tips and promo checks.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
@@ -31,22 +31,22 @@ export default function DepositPage() {
         breadcrumbs={breadcrumbs}
         page={{ path: ROUTES.deposit, title: PAGE_TITLE, description: PAGE_DESCRIPTION }}
         howTo={{
-          name: "How to Deposit Money in 3rr Game",
+          name: "How to Deposit Money in 3 Patti World",
           description: PAGE_DESCRIPTION,
           steps: [...DEPOSIT_STEPS],
         }}
       />
       <PageHero
         breadcrumbs={breadcrumbs}
-        title="Deposit Money in 3rr Game"
-        description="Fund your 3rr Game wallet with JazzCash or EasyPaisa. Check Events for rebates first, then deposit only what fits your weekly budget."
+        title="Deposit Money in 3 Patti World"
+        description="Fund your 3 Patti World wallet with JazzCash or EasyPaisa. Check Events for rebates first, then deposit only what fits your weekly budget."
       />
       <GuideContent>
         <div className="screenshot-card overflow-hidden my-2">
           <div className="screenshot-image-wrap">
             <Image
               src={IMAGES.addMoney}
-              alt="3rr Game deposit screen with JazzCash and EasyPaisa"
+              alt="3 Patti World deposit screen with JazzCash and EasyPaisa"
               width={SCREENSHOT_SIZE.width}
               height={SCREENSHOT_SIZE.height}
               className="screenshot-image"
@@ -63,12 +63,12 @@ export default function DepositPage() {
           <ul className="list-disc list-inside space-y-2">
             <li>Read the current rebate or first-deposit card before paying.</li>
             <li>Start with a small test amount on a new account.</li>
-            <li>Do not approve MPIN prompts you did not start inside 3rr Game.</li>
+            <li>Do not approve MPIN prompts you did not start inside 3 Patti World.</li>
             <li>If balance is late, wait a few minutes, then contact in-app support with the wallet SMS.</li>
           </ul>
           <p>
             After funding, review{" "}
-            <Link href={`${ROUTES.blog}/3rr-game-bonuses-vip-referral-guide`} className="text-accent hover:text-accent-light">
+            <Link href={`${ROUTES.blog}/3-patti-world-bonuses-vip-guide`} className="text-accent hover:text-accent-light">
               bonuses and VIP offers
             </Link>{" "}
             or continue to the{" "}

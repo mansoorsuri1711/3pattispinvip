@@ -6,9 +6,9 @@ import { SITE_ORIGIN } from "@/lib/site";
 import { ROUTES } from "@/lib/routes";
 import { WITHDRAW_STEPS } from "@/lib/guide-steps";
 
-const PAGE_TITLE = "Cash Out from 3rr Game via JazzCash & EasyPaisa";
+const PAGE_TITLE = "Cash Out from 3 Patti World via JazzCash & EasyPaisa";
 const PAGE_DESCRIPTION =
-  "Withdraw 3rr Game winnings to JazzCash or EasyPaisa. Binding tips, minimum checks, and how to keep a transaction ID for support in Pakistan.";
+  "Withdraw 3 Patti World winnings to JazzCash or EasyPaisa. Binding tips, minimum checks, and how to keep a transaction ID for support in Pakistan.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
@@ -29,15 +29,15 @@ export default function WithdrawPage() {
         breadcrumbs={breadcrumbs}
         page={{ path: ROUTES.withdraw, title: PAGE_TITLE, description: PAGE_DESCRIPTION }}
         howTo={{
-          name: "How to Withdraw Money from 3rr Game",
+          name: "How to Withdraw Money from 3 Patti World",
           description: PAGE_DESCRIPTION,
           steps: [...WITHDRAW_STEPS],
         }}
       />
       <PageHero
         breadcrumbs={breadcrumbs}
-        title="Withdraw Money from 3rr Game"
-        description="Cash out to the JazzCash or EasyPaisa number bound to your 3rr Game account. Test with a small amount before larger withdrawals."
+        title="Withdraw Money from 3 Patti World"
+        description="Cash out to the JazzCash or EasyPaisa number bound to your 3 Patti World account. Test with a small amount before larger withdrawals."
       />
       <GuideContent>
         <StepList
@@ -59,8 +59,8 @@ export default function WithdrawPage() {
               deposit guide
             </Link>
             . For risk checks, read{" "}
-            <Link href={`${ROUTES.blog}/is-3rr-game-safe-pakistan`} className="text-accent hover:text-accent-light">
-              is 3rr Game safe in Pakistan
+            <Link href={`${ROUTES.blog}/is-3-patti-world-safe-pakistan`} className="text-accent hover:text-accent-light">
+              is 3 Patti World safe in Pakistan
             </Link>
             .
           </p>

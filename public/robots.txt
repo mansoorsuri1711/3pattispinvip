@@ -63,4 +63,4 @@ User-agent: *
 Disallow: /api/
 Disallow: /_next/
 
-Sitemap: https://3rrgame.co/sitemap-index.xml
+Sitemap: https://teenpattiworld-vip.com/sitemap-index.xml
