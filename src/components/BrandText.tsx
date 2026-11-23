@@ -1,9 +1,23 @@
-import Link from "next/link";
-import { ROUTES } from "@/lib/routes";
+import { OFFICIAL_SITE_URL } from "@/lib/site";
 
 const BRAND_MARKERS = ["Teen Patti Spin", "TeenPatti Spin"] as const;
 
 type BrandMarker = (typeof BRAND_MARKERS)[number];
+
+const brandLinkClassName = "text-accent hover:text-accent-light font-medium";
+
+function BrandLink({ children }: { children: React.ReactNode }) {
+  return (
+    <a
+      href={OFFICIAL_SITE_URL}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={brandLinkClassName}
+    >
+      {children}
+    </a>
+  );
+}
 
 export function findFirstBrandMatch(text: string): { index: number; marker: BrandMarker } | null {
   let earliest = -1;
@@ -21,7 +35,7 @@ export function findFirstBrandMatch(text: string): { index: number; marker: Bran
   return { index: earliest, marker };
 }
 
-/** Link the first brand mention in text to the homepage */
+/** Link the first brand mention in text to the official game site */
 export default function BrandText({ text }: { text: string }) {
   const match = findFirstBrandMatch(text);
   if (!match) return <>{text}</>;
@@ -30,9 +44,7 @@ export default function BrandText({ text }: { text: string }) {
   return (
     <>
       {text.slice(0, index)}
-      <Link href={ROUTES.home} className="text-accent hover:text-accent-light font-medium">
-        {marker}
-      </Link>
+      <BrandLink>{marker}</BrandLink>
       {text.slice(index + marker.length)}
     </>
   );
@@ -53,9 +65,7 @@ export function createSingleBrandLinker() {
     return (
       <>
         {text.slice(0, index)}
-        <Link href={ROUTES.home} className="text-accent hover:text-accent-light font-medium">
-          {marker}
-        </Link>
+        <BrandLink>{marker}</BrandLink>
         {text.slice(index + marker.length)}
       </>
     );

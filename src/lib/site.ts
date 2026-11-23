@@ -23,10 +23,13 @@ export const SITE_ORIGIN = "https://teenpattispin-vip.com";
 export const SITE_DOMAIN = "teenpattispin-vip.com";
 /** Prefer on-domain public assets; fallback CDN host for hotlinked screenshots */
 export const IMAGE_CDN_ORIGIN = "https://teenpattispingame.com.pk";
+/** Official game / developer site linked from brand mentions and APK details */
+export const OFFICIAL_SITE_URL = "https://teenpattispingame.com.pk";
+export const OFFICIAL_SITE_DOMAIN = "teenpattispingame.com.pk";
 export const SUPPORT_EMAIL = "support@teenpattispin-vip.com";
 export const APP_VERSION = "v1.234(0)";
 export const APP_SIZE = "54MB";
-export const APP_DEVELOPER = "Teen Patti Spin";
+export const APP_DEVELOPER = OFFICIAL_SITE_DOMAIN;
 export const APP_LAST_UPDATE = "23 October 2026";
 export const APP_RATING_VALUE = "4.6";
 export const APP_RATING_COUNT = "500000";
